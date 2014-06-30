@@ -42,6 +42,7 @@ The Pagination Class is Generic, this means is that we use Pagination without a 
 
 Basic Setup Example:
 
+``` php
 	// Connect To Database - Edit Details for your own Database
 	mysql_connect('localhost', 'root', 'root');
 	mysql_select_db('test');
@@ -81,6 +82,7 @@ Maximum Per Page, Total number of results and optionally a Get Parameter.
 	
 	// Show the Previous Link, Custom HTML is accepted
 	echo $nav->next(' <a href="index.php?page={nr}">Next</a> | ');
+```
 
 That's all there is to it. You may have noticed we allow custom HTML. This gives you full flexibility. We have integrated an easy system that allows you to access information you need to design your own custom Navigation. Here we will list all possible combinations.
 
