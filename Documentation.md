@@ -49,9 +49,11 @@ Basic Setup Example:
 	
 	// Include Pagination Class
 	include('pagination.php');
+```
 
 Maximum Per Page, Total number of results and optionally a Get Parameter.
 
+``` php
 	// Maximum Items Per Page
 	$max = 6;
 	
